@@ -15,6 +15,13 @@ end
 gem 'bootstrap-sass'
 gem 'haml-rails'
 gem 'pg'
+gem 'paggio'
+gem 'opal', '0.8.1.rc1' #, '0.7.1'
+gem 'opal-rails', '0.8.0' #, '0.7.0'
+gem 'opal-haml', '0.4.0' #, '0.3.0'
+gem 'opal-irb', '0.8.0', require: 'opal-irb-rails'
+
+gem 'jquery-ui-rails'
 group :development do
   gem 'better_errors'
   gem 'html2haml'
